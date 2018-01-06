@@ -22,8 +22,31 @@ p{
   font-size: 17px;
 }
 
+hr{
+  width: 80px;
+}
+
+/* Classes */
+
 .logos{
   width: 40px;
+}
+
+
+.cont-materiais{
+  padding-top: 25px;
+}
+
+
+.colaboradores{
+  color: white;
+}
+
+/* IDs */
+
+#C{
+  background-color: #028090;
+  color: white;
 }
 
 #footer{
@@ -31,6 +54,13 @@ p{
   padding-bottom: 0px;
 }
 
+#lingC{
+  padding-top: 25px;
+}
+
+#top-materiais{
+  padding-top: 80px;
+}
 
 #mainNav{
   background-color: #00BFB2;
@@ -44,10 +74,6 @@ p{
 
 #materiais{
   padding: 60px 0 60px;
-}
-
-.colaboradores{
-  color: white;
 }
 
 #prograd{
