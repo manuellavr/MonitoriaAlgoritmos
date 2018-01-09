@@ -26,12 +26,19 @@ hr{
   width: 80px;
 }
 
+h2, h4{
+  font-family: 'Bree Serif', sans-serif;
+}
+
 /* Classes */
 
 .logos{
   width: 40px;
 }
 
+.quotes{
+  display: none;
+}
 
 .cont-materiais{
   padding-top: 25px;
@@ -80,7 +87,7 @@ hr{
   width: 160px;
 }
 
-#horarios{
+#horarios, #dicas{
   padding-top: 40px;
   background-color: #EDEFE8;
 }

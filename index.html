@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Bree+Serif|Patua+One" rel="stylesheet">
+
 
     <title>Monitoria Algoritmos I - UEFS</title>
 
@@ -73,6 +76,27 @@
       </div>
     </section>
 
+
+    <!--Seção de Dicas-->
+    <section id="dicas">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2>Dicas</h2>
+            <br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+              <h4 class="quotes">Ao finalizar o estudo de um novo assunto, resolva uma lista de exercícios</h2>
+              <h4 class="quotes">Não resolva as atividades somente no papel. Compile o código e 
+                teste o funcionamento do programa!
+              </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Seção de materiais -->
     <section id="materiais">
       <div class="container">
@@ -113,14 +137,14 @@
     <footer class=" bg-dark" id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-sm-2">
             <p class="colaboradores">Colaboradores: </p>
           </div>
-          <div class="col-md-2">
+          <div class="col-sm-2">
             <img class="logos" src="imgs/UEFS.png" alt="Brasão da UEFS">
             <p class="colaboradores">UEFS<p>
           </div>
-          <div class="col-md-2">
+          <div class="col-sm-2">
             <img id="prograd" src="imgs/prograd.png" alt="Logo da PROGRAD">
             <p class="colaboradores"><br>PROGRAD</p>
           </div>
@@ -139,6 +163,24 @@
     <!-- JavaScript pra navbar scrollável -->
     <script src="js/scrolling-nav.js"></script>
 
+    
+        <!-- Inserindo efeito fadeIn -->  
+        <script>
+                var quotes = $(".quotes");
+                var quoteIndex = -1;
+
+                function showNextQuote() {
+                    ++quoteIndex;
+                    quotes.eq(quoteIndex % quotes.length)
+                        .fadeIn(500)
+                        .delay(3500)
+                        .fadeOut(500, showNextQuote);
+                }
+
+                showNextQuote();
+        </script>
+
+        
   </body>
 
 </html>
