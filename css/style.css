@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
- */
 
 header {
   padding: 120px 0 10px;
@@ -52,6 +47,15 @@ h2, h4{
 .dica2{
   background-color: #EDEFE8;
 } 
+
+.alert{
+  text-align: center;
+  padding:10px;
+  background:#79c879;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
+}
 
 
 /* IDs */
