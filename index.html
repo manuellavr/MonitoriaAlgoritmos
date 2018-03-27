@@ -132,7 +132,7 @@
     <section id="horarios">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8">
+          <div class="col-lg-10">
             <h2>Horários de Atendimento</h2>
             <br>
             <p>Os monitores estão, atualmente, disponíveis para atendimento nos horários de:<br>
@@ -142,6 +142,9 @@
             Local: Salas tutoriais do Módulo 5
             </p>
           </div>
+          <div class="col-md-2"> 
+            <img src="imgs/relogio.png" alt="">
+          </div>
         </div>
       </div>
     </section>
@@ -150,7 +153,7 @@
     <!-- Contato -->
     <section id="contato">
       <div class = "container">
-      <form id="contactForm">
+      
       <div class="controls">
         <div class="row">
           <div class="col-md-6 text-center">
@@ -161,7 +164,7 @@
               <img src="imgs/aviao.png" alt="">
           </div>
             <div class="col-md-6">
-            
+            <form id="contactForm" method="POST" action="https://formspree.io/manuh-vieira@hotmail.com">
                 <div class="form-group">
                     <label for="form_name">Nome *</label>
                     <input id="name" type="text"  name="name" class="form-control" placeholder="Seu nome *" required="required" data-error="Firstname is required.">
@@ -179,10 +182,10 @@
                 </div>
             </div>
             </div>            
-            
+            <input type="hidden" name="_next" value="https://manuellavr.github.io/MonitoriaAlgoritmos/" />
               <div class="row">
               <div class="col-md-12 text-right col-xs-6">
-                  <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                  <input type="submit" value="Enviar Mensagem" class="btn btn-primary"></input>
               </div>
               <br>
               <br>

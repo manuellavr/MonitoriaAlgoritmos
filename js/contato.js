@@ -1,5 +1,5 @@
 
-  // Initialize Firebase
+  /*// Initialize Firebase
   var config = {
     apiKey: "AIzaSyAUAy28lbIBWvWDBwsLrvcvNU59JJl6eVU",
     authDomain: "contact-form-469d6.firebaseapp.com",
@@ -53,4 +53,4 @@ function saveMessage(name, email, message){
     email:email,
     message:message
   });
-}
+}*/
